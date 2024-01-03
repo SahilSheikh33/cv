@@ -1,14 +1,26 @@
-def list_operations():
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <pre><code>
+    def list_operations(): 
     my_list = [1, 2, 3, 4, 5]
-    
-    # Accessing elements
-    print("List Access:")
-    print(my_list[0])  # Output: 1
-    print(my_list[-1])  # Output: 5
-    
+ 
+    # Accessing elements 
+    print("List Access:") 
+        print(my_list[0])  # Output: 1 
+        print(my_list[-1])  # Output: 5
     # Slicing
     print("List Slicing:")
     print(my_list[1:4])  # Output: [2, 3, 4]
+
+    
     
     # Modification
     print("List Modification:")
@@ -28,18 +40,17 @@ def list_operations():
     popped_element = my_list.pop(4)
     print(popped_element)  # Output: 5
     print(my_list)  # Output: [1, 2, 9, 4, 6, 7, 8]
-    
-    my_list[3] = 10
+       my_list[3] = 10
     print(my_list)  # Output: [1, 2, 9, 10, 6, 7, 8]
 
 def tuple_operations():
     my_tuple = (1, 2, 3, 4, 5)
-    
+  
     # Accessing elements
     print("\nTuple Access:")
     print(my_tuple[0])  # Output: 1
     print(my_tuple[-1])  # Output: 5
-    
+   
     # Slicing
     print("Tuple Slicing:")
     print(my_tuple[1:4])  # Output: (2, 3, 4)
@@ -68,8 +79,14 @@ def dict_operations():
     # Clearing the dictionary
     my_dict.clear()
     print(my_dict)  # Output: {}
-
 if __name__ == "__main__":
     list_operations()
     tuple_operations()
     dict_operations()
+</code> 
+    </pre>
+    
+
+
+</body>
+</html>
